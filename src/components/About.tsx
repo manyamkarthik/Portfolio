@@ -9,7 +9,7 @@ const About = () => {
   });
 
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-white dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
@@ -26,29 +26,29 @@ const About = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 w-72 h-72 bg-blue-100 rounded-full -z-10" />
+            <div className="absolute -bottom-6 -right-6 w-72 h-72 bg-blue-100 rounded-full -z-10 dark:bg-blue-900 " />
           </div>
 
           <div>
-            <h2 className="text-3xl font-bold mb-6">About Me</h2>
-            <p className="text-gray-600 mb-6">
+            <h2 className="text-3xl font-bold mb-6 dark:text-white">About Me</h2>
+            <p className="text-gray-600 dark:text-gray-300 mb-6">
               I'm a passionate Full Stack Developer with a Master's in Computer Science from Texas Tech University. 
               With over 3 years of professional experience, I specialize in building scalable web applications 
               and microservices using modern technologies.
             </p>
-            <p className="text-gray-600 mb-8">
+            <p className="text-gray-600 dark:text-gray-300 mb-8">
               My expertise spans both frontend and backend development, with a strong focus on creating 
               efficient, maintainable, and user-friendly solutions. I'm particularly interested in cloud 
               technologies and DevOps practices.
             </p>
             <div className="grid grid-cols-2 gap-4">
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-gray-900 mb-2">Location</h3>
-                <p className="text-gray-600">Lubbock, Texas</p>
+              <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                <h3 className="font-semibold text-gray-900  dark:text-white mb-2">Location</h3>
+                <p className="text-gray-600 dark:text-gray-300">Lubbock, Texas</p>
               </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-gray-900 mb-2">Experience</h3>
-                <p className="text-gray-600">3+ Years</p>
+              <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Experience</h3>
+                <p className="text-gray-600 dark:text-gray-300">3+ Years</p>
               </div>
             </div>
           </div>

@@ -30,7 +30,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-gray-50">
+    <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -39,8 +39,8 @@ const Contact = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold mb-4 dark:text-white">Get in Touch</h2>
+          <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             I'm always open to new opportunities and collaborations. 
             Feel free to reach out through any of the following channels.
           </p>
@@ -57,12 +57,12 @@ const Contact = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+              className="bg-white p-6 dark:bg-gray-700 rounded-lg shadow-md hover:shadow-lg transition-shadow"
             >
               <div className="flex flex-col items-center text-center">
-                <div className="text-blue-600 mb-4">{item.icon}</div>
-                <h3 className="font-semibold text-gray-900 mb-2">{item.title}</h3>
-                <p className="text-gray-600">{item.value}</p>
+                <div className="text-blue-600 dark:text-blue-400 mb-4">{item.icon}</div>
+                <h3 className="font-semibold text-gray-900 dark:text-white mb-2">{item.title}</h3>
+                <p className="text-gray-600 dark:text-gray-300">{item.value}</p>
               </div>
             </motion.a>
           ))}
