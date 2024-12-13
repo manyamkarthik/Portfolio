@@ -17,6 +17,21 @@ const projects = [
     live: "https://cinemate-manyam.netlify.app"
   },
   {
+    
+      title: "WeatherScope",
+      description: "WeatherScope is a dynamic weather application that delivers real-time weather updates for any location.",
+      image: "https://images.unsplash.com/photo-1630260643564-7f9c9c140682?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+      tech: ["React", "Tailwind CSS","Vite","OpenWeather API"],
+      features: [
+        "Real-time weather updates",
+        "Location-based search",
+        "Detailed weather metrics"
+      ],
+      github: "https://github.com/manyamkarthik/WeatherApplication",
+      live: "https://weather-km.netlify.app"
+    
+  },
+  {
     title: "TaskMate",
     description: "A task management app to efficiently organize and prioritize tasks.",
     image: "https://images.unsplash.com/photo-1570649236495-42fa5fe5c48b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
