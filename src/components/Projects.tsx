@@ -4,6 +4,19 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
+    "title": "LaLibro",
+    "description": "A book discovery app that lets users search for books using the Google Books API and save their favorite books to a list.",
+    "image": "https://images.unsplash.com/photo-1515125520141-3e3b67bc0a88?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tech": ["React", "Tailwind CSS", "Express JS"],
+    "features": [
+        "Search for books by title or author",
+        "Save to Cart and Check out later",
+        "Responsive and user-friendly interface"
+    ],
+    "github": "https://github.com/manyamkarthik/laLibro",
+    "live": "https://lalibro-km.netlify.app/"
+},
+  {
     title: "CineMate",
     description: "A movie app built using the TMDB API to explore popular movies and TV shows.",
     image: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?q=80&w=1728&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -44,6 +57,19 @@ const projects = [
     github: "https://github.com/manyamkarthik/taskmate-react-app",
     live: "https://taskmate-manyam.netlify.app"
   },
+  {
+    title: "Reptile Rush",
+    description: "A fun and engaging reptile-themed endless runner game built with React, where players control a reptile dodging obstacles and collecting items.",
+    image: "https://images.unsplash.com/photo-1678986991216-9d674fa166d9?q=80&w=1916&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tech: ["React", "CSS", "JavaScript"],
+    features: [
+        "Endless runner gameplay with increasing difficulty",
+        "Collect items to score points and gain power-ups",
+        "Responsive design and smooth animations"
+    ],
+    github: "https://github.com/manyamkarthik/Snake-Game",
+    live: "https://reptile-rush-km.netlify.app/"
+},
   {
     title: "Tic-Tac-Toe",
     description: "A simple Tic-Tac-Toe game built using React.",
