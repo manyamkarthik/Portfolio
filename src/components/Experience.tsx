@@ -21,7 +21,7 @@ const Experience = () => {
             </div>
             <div className="flex items-center text-gray-600 dark:text-gray-300 mb-4">
               <Calendar className="mr-2" size={16} />
-              <span>Apr 2021 - Dec 2022</span>
+              <span>Aug 2021 - Dec 2022</span>
               <span className="mx-2">•</span>
               <span>Infosys Technologies LLC, Hyderabad</span>
             </div>
@@ -77,7 +77,7 @@ const Experience = () => {
             </div>
             <div className="flex items-center text-gray-600 dark:text-gray-300 mb-4">
               <Calendar className="mr-2" size={16} />
-              <span>Mar 2019 - Apr 2021</span>
+              <span>Mar 2019 - Aug 2021</span>
               <span className="mx-2">•</span>
               <span>MCR Web Solutions, Bhimavaram</span>
             </div>
