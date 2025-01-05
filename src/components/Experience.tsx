@@ -10,6 +10,53 @@ const Experience = () => {
 
         <div className="space-y-12">
 
+          {/* Texas Tech University */}
+          <div
+            className="experience-card p-8 rounded-lg shadow-xl transform transition duration-500 ease-in-out hover:scale-105"
+            data-aos="fade-up"
+          >
+            <div className="flex items-center mb-4">
+              <Briefcase className="mr-4 text-blue-500" size={20} />
+              <h3 className="text-2xl font-semibold dark:text-white">Graduate Web Developer</h3>
+            </div>
+            <div className="flex items-center text-gray-600 dark:text-gray-300 mb-4">
+              <Calendar className="mr-2" size={16} />
+              <span>Mar 2023 - Nov 2024</span>
+              <span className="mx-2">•</span>
+              <span>Texas Tech University, Lubbock</span>
+            </div>
+
+            {/* Key Contributions */}
+            <div className="space-y-4 mb-6">
+              <h4 className="text-xl font-semibold dark:text-white">Key Contributions:</h4>
+              <ul className="space-y-3 text-gray-700 dark:text-gray-300">
+                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  🖥️ Built interactive React-based applications for the university, focusing on student registration, course management, and event booking platforms.
+                </li>
+                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  🔄 Implemented Redux for state management, ensuring consistent UI and reducing bugs.
+                </li>
+                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  🌐 Developed and integrated RESTful APIs with Node.js and Express, enabling features like student authentication and real-time event updates.
+                </li>
+                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  ⚛️ Utilized React Hooks and Context API for efficient global state management across modules like course selection and user profiles.
+                </li>
+                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  📅 Built an event booking system in React, integrating PostgreSQL for event data storage with Express.js handling backend logic.
+                </li>
+                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  🧪 Wrote comprehensive unit and integration tests with Jest and React Testing Library to ensure robust application functionality.
+                </li>
+              </ul>
+            </div>
+
+            {/* Environment */}
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              <strong>Environment:</strong> ReactJS, Node.js, Express, MongoDB, PostgreSQL, Redux, JWT, Git, Netlify, Heroku, Jest, React Testing Library, CSS3
+            </div>
+          </div>
+
           {/* Infosys Technologies */}
           <div
             className="experience-card p-8 rounded-lg shadow-xl transform transition duration-500 ease-in-out hover:scale-105"
@@ -77,7 +124,7 @@ const Experience = () => {
             </div>
             <div className="flex items-center text-gray-600 dark:text-gray-300 mb-4">
               <Calendar className="mr-2" size={16} />
-              <span>Mar 2019 - Aug 2021</span>
+              <span>Aug 2020 - Jul 2021</span>
               <span className="mx-2">•</span>
               <span>MCR Web Solutions, Bhimavaram</span>
             </div>
