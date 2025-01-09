@@ -4,6 +4,21 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
+    "title": "TripAI",
+    "description": "A travel app that recommends personalized trip itineraries using AI, helping users plan their vacations based on preferences and interests.",
+    "image": "https://images.unsplash.com/photo-1528578976328-4bc1ea9fad47?q=80&w=1836&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tech": ["React", "Node.js", "Tailwind CSS", "Gemini API", "Flash 2.0"],
+    "features": [
+        "Personalized trip recommendations based on user preferences",
+        "Create and share itineraries with friends",
+        "Real-time suggestions for activities and destinations",
+        "User-friendly, responsive interface"
+    ],
+    "github": "https://github.com/manyamkarthik/AI-TRIP-PLANNER",
+    "live": "https://manyam-ai-planner.netlify.app/"
+},
+
+  {
     "title": "LaLibro",
     "description": "A book discovery app that lets users search for books using the Google Books API and save their favorite books to a list.",
     "image": "https://images.unsplash.com/photo-1515125520141-3e3b67bc0a88?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
