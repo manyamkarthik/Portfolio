@@ -10,12 +10,12 @@ const Footer = () => {
     },
     {
       icon: <Linkedin size={20} />,
-      href: 'https://www.linkedin.com/in/karthik-manyam',
+      href: 'https://www.linkedin.com/in/hari-karthik-manyam',
       label: 'LinkedIn'
     },
     {
       icon: <Mail size={20} />,
-      href: 'mailto:harikarthikmanyam@gmail.com',
+      href: 'mailto:karthikmanyam.dev@gmail.com',
       label: 'Email'
     }
   ];

@@ -16,7 +16,7 @@ const Header = () => {
             <a href="https://github.com/manyamkarthik" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600">
               <Github size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/karthik-manyam" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600">
+            <a href="https://www.linkedin.com/in/hari-karthik-manyam" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600">
               <Linkedin size={20} />
             </a>
             <button className="md:hidden">
