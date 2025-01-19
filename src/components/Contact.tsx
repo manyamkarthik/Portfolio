@@ -6,8 +6,8 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       title: 'Email',
-      value: 'harikarthikmanyam@gmail.com',
-      href: 'mailto:harikarthikmanyam@gmail.com'
+      value: 'karthikmanyam.dev@gmail.com',
+      href: 'mailto:karthikmanyam.dev@gmail.com'
     },
     {
       icon: <Phone size={24} />,
@@ -25,7 +25,7 @@ const Contact = () => {
       icon: <Linkedin size={24} />,
       title: 'LinkedIn',
       value: 'karthik-manyam',
-      href: 'https://www.linkedin.com/in/karthik-manyam'
+      href: 'https://www.linkedin.com/in/hari-karthik-manyam'
     }
   ];
 
