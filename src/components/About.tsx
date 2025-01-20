@@ -33,7 +33,7 @@ const About = () => {
             <h2 className="text-3xl font-bold mb-6 dark:text-white">About Me</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-6">
               I'm a passionate Full Stack Developer with a Master's in Computer Science from Texas Tech University. 
-              With over 4 years of professional experience, I specialize in building scalable web applications 
+              With over 3 years of professional experience, I specialize in building scalable web applications 
               and microservices using modern technologies.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-8">

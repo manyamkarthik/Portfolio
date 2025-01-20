@@ -11,7 +11,7 @@ const Experience = () => {
         <div className="space-y-12">
 
           {/* Texas Tech University */}
-          <div
+          {/* <div
             className="experience-card p-8 rounded-lg shadow-xl transform transition duration-500 ease-in-out hover:scale-105"
             data-aos="fade-up"
           >
@@ -24,10 +24,10 @@ const Experience = () => {
               <span>Mar 2023 - Nov 2024</span>
               <span className="mx-2">•</span>
               <span>Texas Tech University, Lubbock</span>
-            </div>
+            </div> */}
 
             {/* Key Contributions */}
-            <div className="space-y-4 mb-6">
+            {/* <div className="space-y-4 mb-6">
               <h4 className="text-xl font-semibold dark:text-white">Key Contributions:</h4>
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                 <li className="experience-item transform transition duration-500 hover:translate-x-2">
@@ -49,22 +49,22 @@ const Experience = () => {
                   🧪 Wrote comprehensive unit and integration tests with Jest and React Testing Library to ensure robust application functionality.
                 </li>
               </ul>
-            </div>
+            </div> */}
 
             {/* Environment */}
-            <div className="text-sm text-gray-500 dark:text-gray-400">
+            {/* <div className="text-sm text-gray-500 dark:text-gray-400">
               <strong>Environment:</strong> ReactJS, Node.js, Express, MongoDB, PostgreSQL, Redux, JWT, Git, Netlify, Heroku, Jest, React Testing Library, CSS3
             </div>
-          </div>
+          </div> */}
 
-          {/* Infosys Technologies */}
-          <div
+           {/* Infosys Technologies */}
+           <div
             className="experience-card p-8 rounded-lg shadow-xl transform transition duration-500 ease-in-out hover:scale-105"
             data-aos="fade-up"
           >
             <div className="flex items-center mb-4">
               <Briefcase className="mr-4 text-blue-500" size={20} />
-              <h3 className="text-2xl font-semibold dark:text-white">Full Stack Software Engineer</h3>
+              <h3 className="text-2xl font-semibold dark:text-white">Software Engineer</h3>
             </div>
             <div className="flex items-center text-gray-600 dark:text-gray-300 mb-4">
               <Calendar className="mr-2" size={16} />
@@ -78,13 +78,13 @@ const Experience = () => {
               <h4 className="text-xl font-semibold dark:text-white">Core Contributions:</h4>
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                 <li className="experience-item transform transition duration-500 hover:translate-x-2">
-                  🚀 Spearheaded the development of applications using React 17, Redux, and Microservices with Spring Boot and Docker, ensuring scalability.
+                  🚀 Spearheaded the development of applications using React 17, Redux, and Microservices with Python Django and Docker, ensuring scalability.
                 </li>
-                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                 <li className="experience-item transform transition duration-500 hover:translate-x-2">
                   💻 Built optimized React.js components with Hooks and Lazy Loading, improving load times by 40%.
                 </li>
                 <li className="experience-item transform transition duration-500 hover:translate-x-2">
-                  📊 Designed and implemented scalable Spring Boot microservices, integrating Apache Kafka for event-driven architecture.
+                  📊 Designed and implemented scalable Python Django microservices, integrating Apache Kafka for event-driven architecture.
                 </li>
                 <li className="experience-item transform transition duration-500 hover:translate-x-2">
                   🔗 Migrated legacy monolithic systems to AWS, enhancing fault tolerance and reducing downtime.
@@ -92,10 +92,10 @@ const Experience = () => {
                 <li className="experience-item transform transition duration-500 hover:translate-x-2">
                   🛠️ Integrated CI/CD pipelines with Jenkins, managed Kubernetes for container orchestration, and automated infrastructure with Terraform.
                 </li>
-                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                 <li className="experience-item transform transition duration-500 hover:translate-x-2">
                   🧑‍💻 Replaced traditional REST APIs with GraphQL, improving API response efficiency by 30%.
                 </li>
-                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                 <li className="experience-item transform transition duration-500 hover:translate-x-2">
                   📈 Integrated Prometheus and Grafana for real-time monitoring, reducing issue detection time.
                 </li>
                 <li className="experience-item transform transition duration-500 hover:translate-x-2">
@@ -108,12 +108,12 @@ const Experience = () => {
             </div>
 
             {/* Environment */}
-            <div className="text-sm text-gray-500 dark:text-gray-400">
-              <strong>Environment:</strong> ReactJS, Spring Boot, Kafka, AWS (EC2, S3, RDS), Kubernetes, Prometheus, Grafana, Jenkins, Docker, GraphQL, OAuth 2.0, JWT, PostgreSQL, Agile
+             <div className="text-sm text-gray-500 dark:text-gray-400">
+              <strong>Environment:</strong> ReactJS, Python Django, Kafka, AWS (EC2, S3, RDS), Kubernetes, Prometheus, Grafana, Jenkins, Docker, GraphQL, OAuth 2.0, JWT, PostgreSQL, Agile
             </div>
           </div>
 
-          {/* MCR Web Solutions */}
+          {/* EduRun Group */}
           <div
             className="experience-card p-8 rounded-lg shadow-xl transform transition duration-500 ease-in-out hover:scale-105"
             data-aos="fade-up"
@@ -124,34 +124,34 @@ const Experience = () => {
             </div>
             <div className="flex items-center text-gray-600 dark:text-gray-300 mb-4">
               <Calendar className="mr-2" size={16} />
-              <span>Aug 2020 - Jul 2021</span>
+              <span>Aug 2020 - Aug 2021</span>
               <span className="mx-2">•</span>
-              <span>MCR Web Solutions, Bhimavaram</span>
+              <span>EduRun Group, Hyderabad</span>
             </div>
 
             {/* Key Contributions */}
             <div className="space-y-4 mb-6">
               <h4 className="text-xl font-semibold dark:text-white">Key Contributions:</h4>
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
-                <li className="experience-item transform transition duration-500 hover:translate-x-2">
-                  🔧 Designed RESTful APIs with Java Spring Boot and implemented Microservices Architecture for scalability.
+               <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  🔧 Designed RESTful APIs with Fast API and implemented Microservices Architecture for scalability.
                 </li>
-                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                 <li className="experience-item transform transition duration-500 hover:translate-x-2">
                   💡 Built dynamic React.js interfaces using Redux Toolkit for predictable state management.
                 </li>
-                <li className="experience-item transform transition duration-500 hover:translate-x-2">
-                  📚 Established API versioning and automated testing with JUnit and Mockito.
+                 <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  📚 Established API versioning and automated testing with pytest and Mockito.
                 </li>
-                <li className="experience-item transform transition duration-500 hover:translate-x-2">
-                  🔐 Implemented authentication and authorization with Spring Security and JWT.
+                 <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  🔐 Implemented authentication and authorization with Fast API Security and JWT.
                 </li>
-                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                 <li className="experience-item transform transition duration-500 hover:translate-x-2">
                   📊 Leveraged Redis for caching and optimized PostgreSQL queries, reducing database response times by 35%.
                 </li>
-                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  <li className="experience-item transform transition duration-500 hover:translate-x-2">
                   🐳 Deployed applications in Docker containers and streamlined CI/CD with Jenkins.
                 </li>
-                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  <li className="experience-item transform transition duration-500 hover:translate-x-2">
                   🔄 Worked within Agile workflows, participating in stand-ups, sprints, and retrospectives.
                 </li>
               </ul>
@@ -159,10 +159,61 @@ const Experience = () => {
 
             {/* Environment */}
             <div className="text-sm text-gray-500 dark:text-gray-400">
-              <strong>Environment:</strong> ReactJS, Java Spring Boot, Microservices, Docker, Jenkins, Redis, PostgreSQL, JUnit, Mockito, REST APIs, Agile, Git
+              <strong>Environment:</strong> ReactJS, Fast API, Microservices, Docker, Jenkins, Redis, PostgreSQL, pytest, Mockito, REST APIs, Agile, Git
             </div>
           </div>
 
+
+            {/* EduRun Group Intern */}
+          <div
+            className="experience-card p-8 rounded-lg shadow-xl transform transition duration-500 ease-in-out hover:scale-105"
+            data-aos="fade-up"
+          >
+            <div className="flex items-center mb-4">
+              <Briefcase className="mr-4 text-blue-500" size={20} />
+              <h3 className="text-2xl font-semibold dark:text-white">Software Engineer Intern</h3>
+            </div>
+            <div className="flex items-center text-gray-600 dark:text-gray-300 mb-4">
+              <Calendar className="mr-2" size={16} />
+              <span>Jun 2019 - May 2020</span>
+              <span className="mx-2">•</span>
+              <span>EduRun Group, Hyderabad</span>
+            </div>
+
+            {/* Key Contributions */}
+            <div className="space-y-4 mb-6">
+              <h4 className="text-xl font-semibold dark:text-white">Key Contributions:</h4>
+              <ul className="space-y-3 text-gray-700 dark:text-gray-300">
+                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                   🌱 Assisted in the development of RESTful APIs using Fast API, contributing to the backend microservices.
+                </li>
+                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  🔨 Worked with ReactJS for creating components, enhancing the UI experience of applications.
+                </li>
+                <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                   🛠️ Participated in API versioning and testing using pytest and Mockito
+                </li>
+                 <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                 🔐  Assisted in Implementing authentication and authorization with Fast API Security and JWT.
+                </li>
+                   <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  🚀   Contributed in database optimization with Redis for caching and PostgreSQL queries.
+                </li>
+                  <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  🐳 Helped in Deploying applications in Docker containers and streamlined CI/CD with Jenkins.
+                </li>
+                  <li className="experience-item transform transition duration-500 hover:translate-x-2">
+                  🔄 Participated in Agile workflows, attending stand-ups, and providing progress reports.
+                </li>
+              </ul>
+            </div>
+
+            {/* Environment */}
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              <strong>Environment:</strong> ReactJS, Fast API, Microservices, Docker, Jenkins, Redis, PostgreSQL, pytest, Mockito, REST APIs, Agile, Git
+            </div>
+          </div>
+          
         </div>
       </div>
     </section>

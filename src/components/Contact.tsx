@@ -12,7 +12,7 @@ const Contact = () => {
     {
       icon: <Phone size={24} />,
       title: 'Phone',
-      value: '(806) 544-0319',
+      value: '+1 (806) 544-0319',
       href: 'tel:8065440319'
     },
     {
